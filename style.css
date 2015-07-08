@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	color: black;
+}
+tr, td, table {
+	border-style: solid;
+	border-width: 1px;
+	background-color: gray;
+	margin: auto;
+	height: 25px;
+	width: 525px;
+	margin-top: 20px;
+}
+td {
+	transition: .5s background-color;
+}
+td:hover {
+	background-color: red;
+}
+button {
+	height: 25px;
+	width: 225px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	left: 40%;
+	margin-top: -40px;
+}
